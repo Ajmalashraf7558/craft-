@@ -1,0 +1,449 @@
+body{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #F5F5F5;
+    position: sticky;
+    top: 0px;
+    padding-left: 100px;
+
+}
+.logo{
+    width: 25%;
+    padding: 10px;
+    padding-left: 25px;
+    display: flex;
+    float: left;
+}
+.nav{
+    width: 33.33%;
+    display: flex;
+    gap: 40px;
+    padding: 10px;
+    padding-top: 38px;
+    float: left;
+
+    
+}
+.nav-page{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+
+}
+.nav-page:hover{
+    color: #ff7062;
+
+}
+.cart-icon{
+    width: 33.33%;
+    float: left;
+    display: flex;
+    
+}
+.icon-name{
+    padding-left: 170px;
+    padding-top: 42px;
+    float: left;
+    size: 30px;
+    color: black;
+}
+.icon-name:hover{
+    color: #ff7062;
+}
+.icon-cart{
+    
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url("./images/bg-slider-home4-1.webp");
+    background-position: center;
+    background-size: cover;
+    
+}
+ .banner-content{
+    width: 45%;
+    float: left;
+    margin-top: 98px;
+    padding-left: 85px;
+
+ }  
+ .banner-image{
+    width: 34%;
+    float: left;
+ } 
+ .text{
+    font-size: 62px;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+float: left;
+ }
+ .button {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+   
+  }
+  
+  .button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+  }
+  .button:hover{
+    background-color: #ff7062;
+  }
+.section1{
+   width: 100%;
+    display: flex;
+    align-items: center;
+}
+.section1-small-text{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-left: 623px;
+   margin-top: 80px;
+   color: #ff7062;
+   float: left;
+}
+.section1-big-text{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 202px;
+    margin-left: -494px;
+   color: #000000;
+   font-size: 35px;
+}
+.marque-image{
+width: 100%;
+
+}
+.marq{
+    gap: 100px;
+    display: inline-block;
+            padding-left: 30%;
+            animation: marquee 10s linear infinite;
+            
+    
+}
+
+.about-section {
+    padding: 50px 20px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .about-content {
+    flex: 1 1 50%;
+  }
+  
+  .about-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .btn-about {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-about:hover {
+    background-color: #e65c50;
+  }
+  
+  .about-image {
+    flex: 1 1 40%;
+    text-align: center;
+  }
+  
+  .about-image img {
+    width: 100%;
+    max-width: 394px; 
+    height: 301px;
+
+    /* border-radius: 50%; */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); */
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  /* Center-align the entire content */
+.product-section{
+    margin: 0;
+    padding: 20px;
+    /* font-family: 'Arial', sans-serif; */
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    min-height: 100vh; /* Ensures full height alignment */
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; /* Spacing between cards */
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .product-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .product-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .product-details {
+    padding: 20px;
+    text-align: center; /* Center-align text inside the card */
+  }
+  
+  .product-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: #28a745;
+    margin: 10px 0;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #e65c50 ;
+  }
+
+  .content-wrapper {
+    text-align: center;
+  }
+  
+  .product-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-section {
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.contact-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    border-color: #ff7062;
+    outline: none;
+}
+
+.contact-form button {
+    background-color: #ff7062;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #e65c50;
+}
+
+/* Google Map Embed */
+.google-map iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.contact-info-text {
+    flex: 1;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info-image {
+    flex: 1;
+    text-align: center;
+}
+
+.contact-info-image img {
+    width: 100%;
+    max-width: 400px; /* Adjust based on your image size */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
